@@ -69,7 +69,7 @@ let aName = "Franco";
 
 let loops = (word) => {
     let spreading = [...word];
-    for(i=0; i < n.length; i++) {
+    for(i=0; i < spreading.length; i++) {
         console.log(spreading[i]);
     }
 }
